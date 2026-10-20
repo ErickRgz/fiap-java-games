@@ -10,9 +10,11 @@
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.driver.OracleDriver" />
 
             <property name="javax.persistence.jdbc.url" value="" />
-            <property name="javax.persistence.jdbc.user" value="Seu_Usuario" />
-            <property name="javax.persistence.jdbc.password" value="Sua_senha" />
-
+            <property name="javax.persistence.jdbc.user" value="NOME" />
+            <property name="javax.persistence.jdbc.password" value="SENHA" />
+            
+            <property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
         </properties>
 
     </persistence-unit>
